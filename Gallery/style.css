@@ -1,0 +1,35 @@
+#cover-div {
+    display: flex;
+    justify-content:center;
+    align-items:center;
+}
+#display-div {
+    width: 25%;
+    height: 70vh;
+    background-color:rgb(112, 72, 158);
+    /* background-image: url("images/image2.jpg"); */
+     /* background-repeat: no-repeat; */
+     /* background-attachment: fixed; */
+    background-size: cover;
+    display: flex;
+    justify-content:center;
+    align-items:center;
+}
+.grid-div {
+    
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    
+}
+
+h4 {
+    color: rgb(207, 189, 189);
+}
+
+img {
+    width: 20%;
+    height: auto;
+    display: block;
+    margin-left: 25%;
+    margin-top: 15%;
+}
